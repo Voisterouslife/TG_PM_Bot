@@ -55,6 +55,7 @@ CREATE TABLE IF NOT EXISTS reply_hints (user_id TEXT PRIMARY KEY);
 ```text
 https://api.telegram.org/bot你的BOT_TOKEN/setWebhook?url=你的WORKER域名&secret_token=你的SECRET_TOKEN
 ```
+(注：如果网页返回 `{"ok":true,"result":true,"description":"Webhook was set"}` 即代表大功告成！)
 
 ---
 
