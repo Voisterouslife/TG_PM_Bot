@@ -65,7 +65,7 @@ https://api.telegram.org/bot你的BOT_TOKEN/setWebhook?url=你的WORKER域名&se
 - `/unban ID` - 快捷解封用户 
 - `/addword 词汇` - 快捷增加屏蔽词 
 - `/delword 词汇` - 快捷删除屏蔽词 
-- `/test 内容` - 以访客视角模拟发送消息，测试拦截机制 [cite: 1, 7]
+- `/test 内容` - 以访客视角模拟发送消息，测试拦截机制
 
 **交互小技巧：**
 - 你可以直接回复消息 `/ban` 或 `/unban` 来执行快速封禁/解封。 
